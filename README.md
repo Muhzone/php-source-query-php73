@@ -1,7 +1,12 @@
-# PHP Source Query
+# PHP Source Query (PHP 7.3)
 
-[![Packagist Downloads](https://img.shields.io/packagist/dt/xpaw/php-source-query-class.svg)](https://packagist.org/packages/xpaw/php-source-query-class)
-[![Packagist Version](https://img.shields.io/packagist/v/xpaw/php-source-query-class.svg)](https://packagist.org/packages/xpaw/php-source-query-class)
+## About this fork
+
+This fork ports [xPaw/PHP-Source-Query](https://github.com/xPaw/PHP-Source-Query)
+back to **PHP 7.3** for servers running older versions of PHP (e.g. Debian stable).
+You should **not** use this fork if your server already runs **PHP 7.4** or higher.
+
+---
 
 This class was created to query game server which use the Source query protocol, this includes all source games, and all the games that implement Steamworks.
 
@@ -12,7 +17,7 @@ The class also allows you to query servers using RCON although this only works f
 **:warning: Do not send me emails if this does not work for you, I will not help you.**
 
 ## Requirements
-* [Modern PHP version](https://php.net/supported-versions.php) (7.4 or newer)
+* (Almost) [Modern PHP version](https://php.net/supported-versions.php) (~~7.4~~ 7.3 or newer)
 * 64-bit PHP or [gmp module](https://secure.php.net/manual/en/book.gmp.php)
 * Your server must allow UDP connections
 
